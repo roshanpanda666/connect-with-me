@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <>
     <div className='flex justify-center items-center '>
-      <img src="bg.jpg" alt="" className='h-[950px] object-cover  lg:object-fill lg:h-auto'/>
+      <Image src="bg.jpg" alt="" className='h-[950px] object-cover  lg:object-fill lg:h-auto'/>
         <div className='text-white absolute lg:h-[40rem] lg:w-[80rem] w-[20rem] h-[40rem]  flex justify-center items-center lg:flex-row flex-col-reverse'>
           <motion.div className=' lg:w-[40rem] w-[20rem] h-[40rem] flex flex-col lg:text-start text-center'
           initial={{
